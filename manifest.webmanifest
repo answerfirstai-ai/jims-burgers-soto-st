@@ -1,0 +1,14 @@
+{
+  "name": "Jim's Burgers",
+  "short_name": "Jim's Burgers",
+  "description": "Charbroiled burgers at 915 S Soto St, Los Angeles. Open every day 8 AM to 9 PM.",
+  "start_url": "./?utm_source=homescreen",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1b1513",
+  "theme_color": "#1b1513",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
