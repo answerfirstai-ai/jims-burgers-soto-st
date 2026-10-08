@@ -29,7 +29,7 @@
    "chip_closing": "Open now, closing at {{close_label}}",
    "chip_closed": "Closed now, opens at {{open_label}}",
    "home_title": "{{name}} | Charbroiled Burgers in Boyle Heights, LA",
-   "home_meta_desc": "{{name}} at {{street}} in Boyle Heights, LA. Charbroiled burgers, chili cheese fries and onion rings. Open daily {{hours}}. Order pickup, delivery or call.",
+   "home_meta_desc": "{{name}}, {{street}}, Boyle Heights, LA. Charbroiled burgers, chili cheese fries, onion rings. Open daily {{hours}}. Order pickup, delivery or call.",
    "home_og_title": "{{name}} | Charbroiled burgers on Soto Street",
    "home_og_desc": "Charbroiled burgers, chili cheese fries and onion rings in Boyle Heights. Open daily {{hours}} at {{street}}.",
    "home_tw_desc": "Open daily {{hours}} at {{street}}, Los Angeles. Order delivery, pickup or call {{phone}}.",
@@ -100,7 +100,7 @@
    "get_h3": "Getting here",
    "get_li1": "In Boyle Heights, just east of downtown Los Angeles.",
    "get_li2": "On Soto Street, in the 900 block, near Bishop Mora Salesian High School at 960 S Soto St.",
-   "get_li3": "Coming by train? Boyle Heights has four Metro E Line stations. <a href=\"{{metro_url}}\" target=\"_blank\" rel=\"noopener\">Metro's trip planner</a> shows the closest one.",
+   "get_li3": "Coming by train? The Metro E Line runs through Boyle Heights, with stops at Pico/Aliso, Mariachi Plaza and Soto. <a href=\"{{metro_url}}\" target=\"_blank\" rel=\"noopener\">Metro's trip planner</a> shows the closest one.",
    "hours_sub": "Open every day of the week",
    "fact1_h": "Ways to eat",
    "fact1_p": "Dine-in, takeout and delivery.",
@@ -165,7 +165,7 @@
    },
    {
     "q": "What should I order the first time?",
-    "a": "Reviewers on Google keep coming back to two things: big portions and the onion rings. A cheeseburger combo with an order of rings is an easy first order. Ask at the counter what is good today."
+    "a": "Reviewers on Google mention big portions and the onion rings. A cheeseburger combo with an order of rings is an easy first order. Ask at the counter what is good today."
    },
    {
     "q": "How big is the Family Pack?",
@@ -203,12 +203,12 @@
    "chip_closing": "Abierto ahora, cierra a las {{close_label}}",
    "chip_closed": "Cerrado ahora, abre a las {{open_label}}",
    "home_title": "{{name}} | Hamburguesas a la parrilla en Boyle Heights, LA",
-   "home_meta_desc": "{{name}} en {{street}}, Boyle Heights, LA. Hamburguesas a la parrilla, papas con chili y queso y aros de cebolla. Abierto diario {{hours}}. Pide para recoger, a domicilio o llama.",
+   "home_meta_desc": "{{name}}, {{street}}, Boyle Heights, LA. Hamburguesas a la parrilla, papas con chili y queso, aros de cebolla. Abierto diario {{hours}}. Pide o llama.",
    "home_og_title": "{{name}} | Hamburguesas a la parrilla en la calle Soto",
    "home_og_desc": "Hamburguesas a la parrilla, papas con chili y queso y aros de cebolla en Boyle Heights. Abierto diario {{hours}} en {{street}}.",
    "home_tw_desc": "Abierto diario {{hours}} en {{street}}, Los Ángeles. Pide a domicilio, para recoger o llama al {{phone}}.",
    "order_title": "Pide en {{name}} | Domicilio y para recoger en Los Ángeles",
-   "order_meta_desc": "Pide en {{name}} a domicilio o para recoger en Los Ángeles. Hamburguesas a la parrilla, papas con chili y queso, aros de cebolla. Abierto diario {{hours}}. {{phone}}",
+   "order_meta_desc": "Pide en {{name}} a domicilio o para recoger en Los Ángeles. Hamburguesas a la parrilla, aros de cebolla. Abierto diario {{hours}}. {{phone}}",
    "order_og_title": "Pide en {{name}} | Domicilio y para recoger en Los Ángeles",
    "order_og_desc": "Elige tu app y pide. Abierto diario {{hours}} en {{street}}.",
    "order_tw_desc": "Elige tu app y pide. Abierto diario {{hours}} en {{street}}.",
@@ -274,7 +274,7 @@
    "get_h3": "Cómo llegar",
    "get_li1": "En Boyle Heights, justo al este del centro de Los Ángeles.",
    "get_li2": "En la calle Soto, en el bloque 900, cerca de la Bishop Mora Salesian High School (960 S Soto St).",
-   "get_li3": "¿Vienes en tren? Boyle Heights tiene cuatro estaciones de la Línea E de Metro. El <a href=\"{{metro_url}}\" target=\"_blank\" rel=\"noopener\">planificador de viajes de Metro</a> te muestra la más cercana.",
+   "get_li3": "¿Vienes en tren? La Línea E de Metro pasa por Boyle Heights, con paradas en Pico/Aliso, Mariachi Plaza y Soto. El <a href=\"{{metro_url}}\" target=\"_blank\" rel=\"noopener\">planificador de viajes de Metro</a> te muestra la más cercana.",
    "hours_sub": "Abierto todos los días de la semana",
    "fact1_h": "Cómo disfrutarlo",
    "fact1_p": "Para comer aquí, para llevar y a domicilio.",
@@ -339,7 +339,7 @@
    },
    {
     "q": "¿Qué pido la primera vez?",
-    "a": "En Google, los clientes mencionan dos cosas una y otra vez: las porciones grandes y los aros de cebolla. Un combo de hamburguesa con queso con una orden de aros es un buen primer pedido. Pregunta en el mostrador qué está bueno hoy."
+    "a": "En Google, los clientes mencionan las porciones grandes y los aros de cebolla. Un combo de hamburguesa con queso con una orden de aros es un buen primer pedido. Pregunta en el mostrador qué está bueno hoy."
    },
    {
     "q": "¿Qué tan grande es el Family Pack?",

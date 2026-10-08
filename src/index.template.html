@@ -323,15 +323,15 @@ blockquote.sheet:nth-child(2){margin-left:auto;text-align:left}
 .st-reviews2{right:clamp(14px,34vw,520px);bottom:clamp(20px,3vw,50px)}
 .st-order{left:clamp(40px,9vw,170px);bottom:clamp(40px,7vw,120px)}
 .st-faq{top:clamp(30px,5vw,80px);right:clamp(16px,8vw,150px)}
-.getting{position:relative;max-width:440px;margin:40px 0 84px}
+.getting{position:relative;max-width:440px;margin:40px 0 150px}
 .getting h3{font:400 1.5rem/1.1 var(--slab);color:var(--red-deep);margin-bottom:6px}
 .getting ul{list-style:none}
 .getting li{padding:10px 0;border-top:2px dotted #1b151355;font-weight:600}
 .getting li:first-child{border-top:0}
 .getting li a{font-weight:700}
 .getting .row-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
-.st-visit{right:-24px;bottom:-66px;--sw:150px}
-.card .st-hero{right:-30px;bottom:-44px;z-index:7;mix-blend-mode:multiply}
+.st-visit{right:14px;top:auto;bottom:-136px;--sw:116px!important}
+.card .st-hero{right:-26px;top:-52px;bottom:auto;--sw:130px!important;z-index:7;mix-blend-mode:multiply}
 .card{overflow:visible}
 @media (max-width:900px){
   .menu.sec,.order.sec,.faq.sec{padding-top:calc(clamp(72px,10vw,140px) + 64px)}
@@ -341,8 +341,9 @@ blockquote.sheet:nth-child(2){margin-left:auto;text-align:left}
   .st-reviews{--sw:220px!important;right:10px;bottom:22px}
   .st-reviews2{--sw:120px!important;right:auto;left:12px;bottom:26px}
   .st-photos{--sw:120px!important;right:12px;bottom:18px}
-  .st-visit{--sw:116px!important;right:-8px;bottom:-52px}
-  .card .st-hero{--sw:96px!important;top:-34px;right:-6px;bottom:auto}
+  .st-visit{--sw:100px!important;right:10px;top:auto;bottom:-122px}
+  .card .st-hero{--sw:88px!important;top:-38px;right:-14px;bottom:auto}
+  .card .status{max-width:calc(100% - 78px)}
   blockquote.sheet{max-width:100%}
 }
 
@@ -885,7 +886,8 @@ footer.site nav a:hover{border-color:var(--mustard)}
     for (const l of layers) {
       if (!l.on) continue;
       const r = l.host.getBoundingClientRect();
-      l.el.style.transform = `translate3d(0,${(((r.top + r.height / 2) - vh / 2) * l.s).toFixed(1)}px,0)`;
+      const d = l.host.id === 'hero' ? r.top : (r.top + r.height / 2) - vh / 2;   // hero layers start exactly in place at scroll 0, on any screen height
+      l.el.style.transform = `translate3d(0,${(d * l.s).toFixed(1)}px,0)`;
     }
     raf = requestAnimationFrame(tick);
   };
