@@ -1,0 +1,414 @@
+{
+  "name": "Jim's Burgers",
+  "base_url": "https://answerfirstai-ai.github.io/jims-burgers-soto-st",
+  "updated": "2026-10-07",
+  "published": "2026-10-07",
+  "phone": "(323) 269-9732",
+  "tel": "+13232699732",
+  "tel_dash": "+1-323-269-9732",
+  "address": {
+    "street": "915 S Soto St",
+    "city": "Los Angeles",
+    "region": "CA",
+    "zip": "90023"
+  },
+  "geo": {
+    "lat": "34.0339338",
+    "lng": "-118.2162174"
+  },
+  "hours": {
+    "open": 8,
+    "close": 21,
+    "opens": "08:00",
+    "closes": "21:00",
+    "open_label": "8 AM",
+    "close_label": "9 PM",
+    "en": "8 AM to 9 PM",
+    "es": "8 AM a 9 PM"
+  },
+  "rating": {
+    "value": "4.0",
+    "count": "322"
+  },
+  "price_range": "$10-20",
+  "combo_add": "4.79",
+  "jr_combo_add": "4.57",
+  "links": {
+    "listing": "https://www.google.com/maps/place/Jim%27s+Burgers/@34.0339338,-118.2162174,17z/data=!4m6!3m5!1s0x80c2c602a03b1765:0x8e04b73bcae9e9d5!8m2!3d34.0339338!4d-118.2162174!16s%2Fg%2F1tgb7mht",
+    "directions": "https://www.google.com/maps/dir/?api=1&destination=915+S+Soto+St,+Los+Angeles,+CA+90023",
+    "apple": "https://maps.apple.com/?daddr=915+S+Soto+St,+Los+Angeles,+CA+90023",
+    "metro": "https://www.metro.net/"
+  },
+  "apps": [
+    {
+      "name": {
+        "en": "DoorDash",
+        "es": "DoorDash"
+      },
+      "url": "https://www.doordash.com/store/jims-burgers-soto-st-los-angeles-1310751/",
+      "small": {
+        "en": "Pickup or delivery",
+        "es": "Recoger o domicilio"
+      }
+    },
+    {
+      "name": {
+        "en": "Uber Eats",
+        "es": "Uber Eats"
+      },
+      "url": "https://www.ubereats.com/store/jim-burgers-soto-st/_RXMp23tRkWUcYlIIKpBuw",
+      "small": {
+        "en": "Pickup or delivery",
+        "es": "Recoger o domicilio"
+      }
+    },
+    {
+      "name": {
+        "en": "Postmates",
+        "es": "Postmates"
+      },
+      "url": "https://www.postmates.com/store/jim-burgers-soto-st/_RXMp23tRkWUcYlIIKpBuw",
+      "small": {
+        "en": "Pickup or delivery",
+        "es": "Recoger o domicilio"
+      }
+    },
+    {
+      "name": {
+        "en": "Caviar",
+        "es": "Caviar"
+      },
+      "url": "https://www.trycaviar.com/store/jims-burgers-soto-st-los-angeles-1310751/",
+      "small": {
+        "en": "Pickup or delivery",
+        "es": "Recoger o domicilio"
+      }
+    },
+    {
+      "name": {
+        "en": "Jim's order page",
+        "es": "Pedidos de Jim's"
+      },
+      "url": "https://order.online/store/-1310751/",
+      "small": {
+        "en": "Hosted by DoorDash",
+        "es": "Con DoorDash"
+      }
+    }
+  ],
+  "privacy": {
+    "updated": "October 7, 2026",
+    "updated_es": "7 de octubre de 2026",
+    "email": ""
+  },
+  "menu": [
+    {
+      "id": "burgers",
+      "title": {
+        "en": "Burgers",
+        "es": "Hamburguesas"
+      },
+      "note": {
+        "en": "Burger prices are for the burger alone. Make it a combo for +${{combo_add}}: a medium drink and small fries.",
+        "es": "Los precios son solo de la hamburguesa. Hazla combo por +${{combo_add}}: bebida mediana y papas fritas chicas."
+      },
+      "items": [
+        {
+          "en": "Hamburger",
+          "es": "Hamburguesa",
+          "prices": [
+            {
+              "amt": "5.02"
+            }
+          ]
+        },
+        {
+          "en": "Cheeseburger",
+          "es": "Hamburguesa con queso",
+          "prices": [
+            {
+              "amt": "5.71"
+            }
+          ]
+        },
+        {
+          "en": "Bacon burger",
+          "es": "Hamburguesa con tocino",
+          "prices": [
+            {
+              "amt": "6.39"
+            }
+          ]
+        },
+        {
+          "en": "Bacon cheeseburger",
+          "es": "Hamburguesa con queso y tocino",
+          "prices": [
+            {
+              "amt": "7.08"
+            }
+          ]
+        },
+        {
+          "en": "Double hamburger",
+          "es": "Hamburguesa doble",
+          "prices": [
+            {
+              "amt": "6.62"
+            }
+          ]
+        },
+        {
+          "en": "Double cheeseburger",
+          "es": "Hamburguesa doble con queso",
+          "prices": [
+            {
+              "amt": "7.31"
+            }
+          ]
+        },
+        {
+          "en": "Double bacon burger",
+          "es": "Hamburguesa doble con tocino",
+          "prices": [
+            {
+              "amt": "8.45"
+            }
+          ]
+        },
+        {
+          "en": "Double bacon cheeseburger",
+          "es": "Hamburguesa doble con queso y tocino",
+          "prices": [
+            {
+              "amt": "9.13"
+            }
+          ]
+        },
+        {
+          "en": "Chili burger",
+          "es": "Hamburguesa con chili",
+          "prices": [
+            {
+              "amt": "5.94"
+            }
+          ]
+        },
+        {
+          "en": "Chili cheeseburger",
+          "es": "Hamburguesa con chili y queso",
+          "prices": [
+            {
+              "amt": "6.39"
+            }
+          ]
+        },
+        {
+          "en": "Pastrami burger",
+          "es": "Hamburguesa con pastrami",
+          "prices": [
+            {
+              "amt": "7.31"
+            }
+          ]
+        },
+        {
+          "en": "Colossal burger",
+          "es": "Hamburguesa Colossal",
+          "prices": [
+            {
+              "amt": "8.90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jr",
+      "title": {
+        "en": "Jr. burgers",
+        "es": "Hamburguesas Jr."
+      },
+      "note": {
+        "en": "Jr. combo: +${{jr_combo_add}} for a small drink and small fries.",
+        "es": "Combo Jr.: +${{jr_combo_add}} por una bebida chica y papas fritas chicas."
+      },
+      "items": [
+        {
+          "en": "Jr. hamburger",
+          "es": "Hamburguesa Jr.",
+          "prices": [
+            {
+              "amt": "4.11"
+            }
+          ]
+        },
+        {
+          "en": "Jr. cheeseburger",
+          "es": "Hamburguesa Jr. con queso",
+          "prices": [
+            {
+              "amt": "4.57"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "title": {
+        "en": "Chicken, tacos and more",
+        "es": "Pollo, tacos y más"
+      },
+      "items": [
+        {
+          "en": "Fried chicken sandwich",
+          "es": "Sándwich de pollo frito",
+          "prices": []
+        },
+        {
+          "en": "Chicken nuggets",
+          "es": "Nuggets de pollo",
+          "prices": [
+            {
+              "en": "5 pc",
+              "es": "5 pzas",
+              "amt": "4.99"
+            },
+            {
+              "en": "10 pc",
+              "es": "10 pzas",
+              "amt": "7.99"
+            }
+          ]
+        },
+        {
+          "en": "Chicken strips",
+          "es": "Tiras de pollo",
+          "prices": []
+        },
+        {
+          "en": "Turkey burger",
+          "es": "Hamburguesa de pavo",
+          "prices": [
+            {
+              "amt": "6.99"
+            }
+          ]
+        },
+        {
+          "en": "Fish taco",
+          "es": "Taco de pescado",
+          "prices": [
+            {
+              "amt": "3.50"
+            }
+          ]
+        },
+        {
+          "en": "Taco special",
+          "es": "Especial de tacos",
+          "prices": [
+            {
+              "amt": "12.99"
+            }
+          ]
+        },
+        {
+          "en": "Family pack",
+          "es": "Paquete familiar",
+          "prices": [
+            {
+              "amt": "41.99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "title": {
+        "en": "Fries and sides",
+        "es": "Papas y acompañamientos"
+      },
+      "items": [
+        {
+          "en": "Chili cheese fries",
+          "es": "Papas con chili y queso",
+          "prices": []
+        },
+        {
+          "en": "D.U.I. fries",
+          "es": "Papas D.U.I.",
+          "desc": {
+            "en": "Chili cheese fries with pastrami and carne asada",
+            "es": "Papas con chili y queso, pastrami y carne asada"
+          },
+          "prices": [
+            {
+              "amt": "15.49"
+            }
+          ]
+        },
+        {
+          "en": "Onion rings",
+          "es": "Aros de cebolla",
+          "prices": []
+        },
+        {
+          "en": "Hash browns (small)",
+          "es": "Hash browns (chicas)",
+          "prices": [
+            {
+              "amt": "1.14"
+            }
+          ]
+        },
+        {
+          "en": "Dinner rolls",
+          "es": "Panecillos",
+          "prices": [
+            {
+              "amt": "1.14"
+            }
+          ]
+        },
+        {
+          "en": "Rice",
+          "es": "Arroz",
+          "prices": [
+            {
+              "en": "S",
+              "es": "Chico",
+              "amt": "2.51"
+            },
+            {
+              "en": "L",
+              "es": "Grande",
+              "amt": "5.02"
+            }
+          ]
+        },
+        {
+          "en": "Drink refill",
+          "es": "Refill de bebida",
+          "prices": [
+            {
+              "amt": "1.50"
+            }
+          ]
+        },
+        {
+          "en": "Extra avocado",
+          "es": "Aguacate extra",
+          "prices": [
+            {
+              "amt": "1.50"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "github_pages_url": "https://answerfirstai-ai.github.io/jims-burgers-soto-st"
+}
