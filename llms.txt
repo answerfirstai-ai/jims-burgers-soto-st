@@ -1,6 +1,6 @@
 # Jim's Burgers
 
-> Charbroiled quarter-pound burgers, chili cheese fries and onion rings at 915 S Soto St, Los Angeles, CA 90023. Dine-in, takeout and delivery. Open every day, 8 AM to 9 PM.
+> Charbroiled quarter-pound burgers, chili cheese fries and onion rings at 915 S Soto St, Los Angeles, CA 90023 (Boyle Heights). Dine-in, takeout and delivery through apps. Open every day, 8 AM to 9 PM.
 
 ## Facts
 - Name: Jim's Burgers (hamburger restaurant)
@@ -10,6 +10,7 @@
 - Price: $10-20 per person, as reported by diners
 - Payment: a charge applies to credit card purchases
 - Google rating: 4.0 from 322 Google reviews
+- Languages: this website is in English and Spanish
 - Directions: https://www.google.com/maps/dir/?api=1&destination=915+S+Soto+St,+Los+Angeles,+CA+90023
 
 ## Order
@@ -19,12 +20,16 @@
 - Postmates: https://www.postmates.com/store/jim-burgers-soto-st/_RXMp23tRkWUcYlIIKpBuw
 - Caviar: https://www.trycaviar.com/store/jims-burgers-soto-st-los-angeles-1310751/
 
-## Menu (names only; prices change, call to confirm)
+## Menu (names only; prices are on the website and can change, call to confirm)
 - Burgers: hamburger, cheeseburger, bacon burger, bacon cheeseburger, double hamburger, double cheeseburger, double bacon burger, double bacon cheeseburger, chili burger, chili cheeseburger, pastrami burger, colossal burger
 - Jr. burgers: jr. hamburger, jr. cheeseburger
 - Chicken, tacos and more: fried chicken sandwich, chicken nuggets, chicken strips, turkey burger, fish taco, taco special, family pack
-- Fries and sides: chili cheese fries, D.U.I. fries, onion rings, hash browns, dinner rolls, rice
+- Fries and sides: chili cheese fries, D.U.I. fries, onion rings, hash browns (small), dinner rolls, rice, drink refill, extra avocado
 
 ## Pages
-- Home: https://answerfirstai-ai.github.io/jims-burgers-soto-st/
+- Home (English): https://answerfirstai-ai.github.io/jims-burgers-soto-st/
+- Inicio (Español): https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/
 - Order: https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/
+- Pedir: https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/order/
+- Privacy: https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/
+- Privacidad: https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/privacy/

@@ -1,20 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/</loc>
     <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/burger.webp</image:loc><image:caption>Cheeseburger with an onion ring in its paper wrapper</image:caption></image:image>
-    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/chicken.webp</image:loc><image:caption>Fried chicken plate with fries, coleslaw and toast</image:caption></image:image>
-    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/fries-pastrami.webp</image:loc><image:caption>Fries topped with pastrami and melted cheese</image:caption></image:image>
-    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/menu-screen.webp</image:loc><image:caption>Jim's Burgers menu board</image:caption></image:image>
-    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/sign.webp</image:loc><image:caption>Jim's Plaza Burgers pole sign</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/burger.webp</image:loc><image:caption>Cheeseburger with an onion ring, held in its paper wrapper</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/chicken.webp</image:loc><image:caption>Two pieces of fried chicken with fries, coleslaw and toast on a plate</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/fries-pastrami.webp</image:loc><image:caption>Fries piled with sliced pastrami and melted cheese in a takeout box</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/menu-screen.webp</image:loc><image:caption>Jim&#x27;s Burgers menu board</image:caption></image:image>
+  </url>
+  <url>
+    <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/burger.webp</image:loc><image:caption>Hamburguesa con queso y un aro de cebolla, en su envoltura de papel</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/chicken.webp</image:loc><image:caption>Dos piezas de pollo frito con papas fritas, ensalada de col y pan tostado en un plato</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/fries-pastrami.webp</image:loc><image:caption>Papas fritas cubiertas de pastrami en rebanadas y queso derretido en una caja para llevar</image:caption></image:image>
+    <image:image><image:loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/assets/menu-screen.webp</image:loc><image:caption>Pizarra del menú de Jim&#x27;s Burgers</image:caption></image:image>
   </url>
   <url>
     <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/</loc>
     <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/order/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/order/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/order/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/order/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/privacy/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://answerfirstai-ai.github.io/jims-burgers-soto-st/privacy/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

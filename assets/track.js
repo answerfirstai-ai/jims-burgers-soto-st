@@ -11,6 +11,11 @@
     adsLabels: {}
   };
   window.dataLayer = window.dataLayer || [];
+  // Privacy: honor the visitor's opt-out (privacy page button) and the Global Privacy Control signal.
+  // Nothing third-party loads and nothing is sent when either is on.
+  let optedOut = navigator.globalPrivacyControl === true;
+  try { if (localStorage.getItem('jb_optout') === '1') optedOut = true; } catch (e) {}
+  if (optedOut) { window.JBTrack = () => {}; return; }
   const load = src => { const s = document.createElement('script'); s.async = true; s.src = src; document.head.appendChild(s); };
   const gtag = function () { dataLayer.push(arguments); };
   if (CFG.gtm) { dataLayer.push({'gtm.start': Date.now(), event: 'gtm.js'}); load('https://www.googletagmanager.com/gtm.js?id=' + CFG.gtm); }
@@ -35,7 +40,7 @@
 
   const META = {order_click: 'InitiateCheckout', call_click: 'Contact', directions_click: 'FindLocation', order_open: 'ViewContent'};
   const send = (name, p = {}) => {
-    const params = Object.assign({page: location.pathname}, ctx, p);
+    const params = Object.assign({page: location.pathname, lang: document.documentElement.lang || 'en'}, ctx, p);
     dataLayer.push(Object.assign({event: name}, params));
     if (window.gtag && !CFG.gtm) gtag('event', name, params);
     if (window.fbq) META[name] ? fbq('track', META[name], params) : fbq('trackCustom', name, params);
@@ -48,9 +53,10 @@
     const a = e.target.closest('a,button'); if (!a) return;
     const href = a.getAttribute('href') || '';
     if (href.startsWith('tel:')) send('call_click', {location: where(a)});
-    else if (href.includes('maps/dir')) send('directions_click', {location: where(a)});
+    else if (href.includes('maps/dir') || href.includes('maps.apple.com')) send('directions_click', {location: where(a)});
     else if (a.closest('#apps, #dlg-apps')) { let h = ''; try { h = new URL(a.href).hostname.replace('www.', ''); } catch (x) {} send('order_click', {provider: h, location: where(a)}); }
     else if (a.hasAttribute('data-order')) send('order_open', {location: where(a)});
+    else if (a.classList.contains('lang')) send('language_switch', {to: a.getAttribute('hreflang') || ''});
     else if (/google\.com\/maps\/place/.test(href)) send('reviews_click', {location: where(a)});
   }, {capture: true});
   document.addEventListener('click', e => { const f = e.target.closest('[data-zoom]'); if (f) send('photo_zoom', {photo: (f.querySelector('img') || {}).src?.split('/').pop()}); });
